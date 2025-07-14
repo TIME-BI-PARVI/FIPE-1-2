@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clonar o repositório') {
             steps {
-                git branch: 'main',
+                git branch: 'Fipe-1/2',
                     url: 'https://github.com/LuizVinicius01/FIPE-1-2.git'
             }
         }
