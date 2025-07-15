@@ -106,7 +106,7 @@ def FIPE():
                 print(codigos_validos)
                 
                 # Caminho dinâmico para Downloads do usuário atual
-                downloads_path = Path.home() / "Downloads"
+                downloads_path = Path("C:/Users/adm.luiz.vinicius/Downloads")
                 file_path = downloads_path / "codigos_falharam.txt"
 
                 with open(file_path, "w", encoding="utf-8") as file:
