@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Clonar o repositório!!') {
+        stage('Clonar o repositório!!!!') {
             steps {
                 git branch: 'Fipe-1/2',
                     url: 'https://github.com/LuizVinicius01/FIPE-1-2.git'
